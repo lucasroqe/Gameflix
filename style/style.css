@@ -1,0 +1,46 @@
+:root{
+    --azul:#003F88;
+    --azul-claro:#00509D;
+    --amarelo-mostarda:#FDC500;
+    --amarelo:#FFD500;
+    --preto:#141414;
+    --branco-escuro:#dad9d8;
+    --branco-claro:#ffffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--preto);
+    /* font-family: 'Bebas Neue', cursive; */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+header .container{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+header .logo{
+    color: var(--amarelo);
+    font-family: 'Arial Black', Helvetica, sans-serif;
+    font-size: 2.5rem;
+    margin-left: 1rem;
+}
+
+header div nav a{
+    text-decoration: none;
+    color: var(--branco-escuro);
+    margin-right: 0.5rem;
+}
+
+header div nav a:hover{
+    color: var(--branco-claro);
+}
+

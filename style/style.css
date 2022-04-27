@@ -16,8 +16,8 @@
 
 body{
     background-color: var(--preto);
-    /* font-family: 'Bebas Neue', cursive; */
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Bebas Neue', cursive; 
+    /* font-family: 'Times New Roman', Times, serif; */
     color: white;
 }
 
@@ -67,6 +67,7 @@ main .jogo-principal{
 main .jogo-principal .descricao{
     margin-bottom: 2rem;
     margin-top: 1rem;
+    font-size: 2rem;
 }
 
 main .jogo-principal .titulo{
@@ -112,4 +113,8 @@ main .container{
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrosel-jogos{
+    margin-top: 1rem;
 }

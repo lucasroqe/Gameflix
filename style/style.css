@@ -105,3 +105,11 @@ main .container{
     width: 65%;
 }
 
+
+/* carrosel jogos */
+
+.box-jogos{
+    height: 100%;
+    width: 100%;
+    display: block;
+}

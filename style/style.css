@@ -18,8 +18,10 @@ body{
     background-color: var(--preto);
     /* font-family: 'Bebas Neue', cursive; */
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
+/* navbar */
 
 header .container{
    display: flex;
@@ -38,9 +40,19 @@ header div nav a{
     text-decoration: none;
     color: var(--branco-escuro);
     margin-right: 0.5rem;
+    font-size: 1.5rem;
 }
 
 header div nav a:hover{
     color: var(--branco-claro);
 }
 
+/* principal */
+
+main .jogo-principal{
+    font-size: 1.2rem;
+    background-image: url(/img/valorant-capa.jpg);
+
+    height: 25rem;
+    background-size: cover;
+}
